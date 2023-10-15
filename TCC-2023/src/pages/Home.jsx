@@ -87,21 +87,27 @@ function Header() {
                         <div className={styles.imagenscomponentes}>
                             <div className={styles.oculosprotecao}>
                                 <img src="../public/oculosprotecao.jpg" alt="oculos de proteção" />
+                                <p>Óculos de proteção</p>
                             </div>
                             <div className={styles.arduino}>
                                 <img src="../public/arduinopromini.jpg" alt="arduino pro mini" />
+                                <p>Arduino pro mini</p>
                             </div>
                             <div className={styles.sensor}>
                                 <img src="../public/sensor.jpeg" alt="sensor infravermelho" />
+                                <p>Sensor infraverme</p>
                             </div>
                             <div className={styles.botao}>
                                 <img src="../public/botao.jpeg" alt="botão liga desliga" />
+                                <p>Botão</p>
                             </div>
                             <div className={styles.buzzer}>
                                 <img src="../public/buzzer.jpeg" alt="buzzer" />
+                                <p>Buzzer</p>
                             </div>
                             <div className={styles.bateria}>
                                 <img src="../public/bateria37.jpeg" alt="bateria 3.7v" />
+                                <p>Bateria</p>
                             </div>
                         </div>
                     </section>
