@@ -49,6 +49,51 @@ header {
     border-radius: 20px;
 }
 
+.oculosprotecao img {
+    width: 150px;
+    border-radius: 20px;
+}
+
+.arduino img {
+    width: 150px;
+    border-radius: 20px;
+}
+
+.sensor img {
+    width: 150px;
+    border-radius: 20px;
+}
+
+.botao img {
+    width: 150px;
+    border-radius: 20px;
+}
+
+.buzzer img {
+    width: 150px;
+    border-radius: 20px;
+}
+
+.bateria img {
+    width: 150px;
+    border-radius: 20px;
+}
+
+.giovanna img {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.pablo img {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.paulo img {
+    width: 200px;
+    border-radius: 20px;
+}
+
 .imagens {
     display: flex;
     align-items: center;
@@ -64,6 +109,12 @@ header {
     justify-content: center;
     padding: 30px;
     padding-inline: 20px;
+}
+
+.imagenscriadores img {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
 }
 
 .wrapper{

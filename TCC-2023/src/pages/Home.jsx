@@ -47,12 +47,14 @@ function Header() {
                             <a href="#Objetivo">Objetivo</a>
                             <a href="#Componentes">Componentes</a>
                             <a href="#Funcionamento">Funcionamento</a>
+                            <a href="#Criadores">Criadores</a>
                         </nav>
                     </div>
                 </div>
             </header>
             <div className={styles.wrapper}>
                 <main>
+
                     <section className={styles.parallax_one}>
                         <h1>ANTI SLEEP GLASSES</h1>
                         <p>Para saber mais, role para baixo ou clique em um dos itens a cima.</p>
@@ -60,6 +62,7 @@ function Header() {
                             <img src="../public/oculos.png" alt="anti-sleep-glasses" />
                         </div>
                     </section>
+
                     <section id="Objetivo" className={styles.module_content}>
                         <div className={styles.container}>
                             <h2>Qual o objetivo e o público alvo do nosso projeto?</h2>
@@ -78,10 +81,11 @@ function Header() {
                             </div>
                         </div>
                     </section>
+
                     <section id="Componentes" className={styles.parallax_two}>
                         <h1>Componentes usados no projeto</h1>
                         <div className={styles.imagenscomponentes}>
-                            <div className={styles.oculos}>
+                            <div className={styles.oculosprotecao}>
                                 <img src="../public/oculosprotecao.jpg" alt="oculos de proteção" />
                             </div>
                             <div className={styles.arduino}>
@@ -101,6 +105,7 @@ function Header() {
                             </div>
                         </div>
                     </section>
+
                     <section id="Funcionamento" className={styles.module_content}>
                         <div className={styles.container}>
                             <h2>Como vai funcionar?</h2>
@@ -108,17 +113,25 @@ function Header() {
                             <p>Fique com a demonstração.</p>
                         </div>
                     </section>
-                    <section className={styles.parallax_three}>
+
+                    <section id="Criadores" className={styles.parallax_three}>
                         <h1>Criadores do projeto</h1>
                         <div className={styles.imagenscriadores}>
                             <div className={styles.giovanna}>
                                 <img src="../giovanna.jpg" alt="foto da giovanna" />
+                                <p>Giovanna</p>
                             </div>
                             <div className={styles.pablo}>
-                                <img src="../pablo.jpg" alt="foto da pablo" />
+                                <img src="../pablo2.jpeg" alt="foto da pablo" />
+                                <p>Pablo</p>
+                            </div>
+                            <div className={styles.paulo}>
+                                <img src="../paulo.jpg" alt="foto da paulo" />
+                                <p>Paulo</p>
                             </div>
                         </div>
                     </section>
+
                 </main>
             </div>
         </body>
